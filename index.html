@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/favicon.ico">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Import file css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Dartboard - Odoo</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-content-iconnavbar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="header-content-title">
+                <p class="activeTitle">Dashboard</p>
+                <p>Tax Finalization </p>
+                <p>Calendar </p>
+                <p>Working Timesheet</p>
+                <p>Appraisals</p>
+                <p>Project</p>
+                <p>Timesheets </p>
+                <p>Employees </p>
+                <p>Assets </p>
+                <p>Helpdesk</p>
+                <p>More <i class="fa-sharp fa-solid fa-caret-down"></i></p>
+            </div>
+            <div class="header-content-info">
+                <p><i class="fa-sharp fa-solid fa-clock"></i></p>
+                <p><i class="fa-solid fa-comments"></i></p>
+                <p class="header-content-info-avatar">
+                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                    <span>Nguyen Danh Tung</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sideBar">
+            <div class="sideBar-icon-info"><i class="fa-solid fa-circle-info"></i></div>
+            <div class="sideBar-img-block">
+                <img src="./imgs/anh1.jpg" alt="Avatar">
+            </div>
+            <div class="sideBar-info-name">
+                <p class="sideBar-info-fullname">Nguyễn Danh Tùng</p>
+                <p class="sideBar-info-position1">Internship</p>
+                <p class="sideBar-info-position2">Intern</p>
+            </div>
+            <div class="sideBar-info-detail-block">
+                <div class="sideBar-info-detail sideBar-info-gender">
+                    <i class="fa-solid fa-mars"></i>
+                    <p>Nam</p>
+                </div>
+                <div class="sideBar-info-detail">
+                    <p class="sideBar-info-detail-namebirthday">Sinh nhật</p>
+                    <p>2000-11-26</p>
+                </div>
+            </div>
+            <div class="sideBar-info-work">
+                <p>Đã vào làm</p>
+                <p>2 ngày</p>
+            </div>
+        </div>
+
+
+        <!-- Content -->
+        <div class="content">
+            <marquee class="content-marquee" direction="left">Xin chào Nguyễn Danh Tùng, chúc bạn có một
+                ngày làm việc thật vui vẻ và hiệu quả !
+            </marquee>
+
+            <!-- Content 4 cot dau -->
+            <div class="content-staff">
+                <!-- Item 1 -->
+                <div class="content-staff-row">
+                    <div class="content-staff-block content-block-1">
+                        <p class="content-staff-title">Chờ phê duyệt</p>
+                        <div class="content-staff-box">
+                            <span>Xin nghỉ</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Đi muộn/Về sớm</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Xin WFH</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Chấm công WFH</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="content-staff-row">
+                    <div class="content-staff-block content-block-2">
+                        <p class="content-staff-title">Việc cần làm</p>
+                        <div class="content-staff-box">
+                            <span>Duyệt xin nghỉ</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Duyệt đi muộn/về sớm</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Duyệt xin WFH</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Duyệt chấm công WFH</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Đánh giá hợp đồng</span>
+                            <span class="content-staff-box-number">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="content-staff-row">
+                    <div class="content-staff-block content-block-3">
+                        <p class="content-staff-title">Thông tin khác</p>
+                        <div class="content-staff-box">
+                            <span>Dự án</span>
+                            <span class="content-staff-box-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Làm theo giờ</span>
+                            <span class="content-staff-box-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Chấm công làm thêm giờ</span>
+                            <span class="content-staff-box-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Timesheet gửi khách hàng</span>
+                            <span class="content-staff-box-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Xem phiếu lương</span>
+                            <span class="content-staff-box-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                        <div class="content-staff-box">
+                            <span>Ủy quyền quyết toán thuế</span>
+                            <span class="content-staff-box-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="content-staff-row">
+                    <div class="content-staff-block content-block-4">
+                        <p class="content-staff-title">Điểm danh</p>
+                        <div class="content-block-4-table">
+                            <table>
+                                <tr class="content-block-4-title">
+                                    <th>Ngày</th>
+                                    <th>Giờ vào</th>
+                                    <th>Giờ về</th>
+                                </tr>
+                                <tr class="content-block-4-detail">
+                                    <td class="content-block-4-detail-textleft">20-12-2022</td>
+                                    <td>08:17</td>
+                                    <td>17:46</td>
+                                </tr>
+                                <tr class="content-block-4-detail">
+                                    <td class="content-block-4-detail-textleft">20-12-2022</td>
+                                    <td>08:17</td>
+                                    <td>17:46</td>
+                                </tr>
+                            </table>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content 3 cot sau -->
+            <div class="content-beside">
+                <!-- Item 5 -->
+                <div class="content-beside-row">
+                    <div class="content-beside-block content-block-5">
+                        <p class="content-beside-title">Nghỉ phép</p>
+                        <div class="content-block-5-table">
+                            <table>
+                                <tr class="content-block-5-title">
+                                    <th>Loại nghỉ</th>
+                                    <th>Đã dùng</th>
+                                    <th>Còn lại</th>
+                                </tr>
+                                <tr class="content-block-5-detail">
+                                    <td class="content-block-5-detail-textleft">Nghỉ không lương</td>
+                                    <td>0</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr class="content-block-5-detail">
+                                    <td class="content-block-5-detail-textleft">Nghỉ vì việc gia đình (Bố, mẹ, vợ, chồng
+                                        mất)</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr class="content-block-5-detail">
+                                    <td class="content-block-5-detail-textleft">Nghỉ cưới</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr class="content-block-5-detail">
+                                    <td class="content-block-5-detail-textleft">Nghỉ bù OT</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </table>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="content-beside-row">
+                    <div class="content-beside-block content-block-6">
+                        <p class="content-beside-title">Lịch họp hôm nay</p>
+                        <div class="content-block-6-info">
+                            <p>Bạn không có lịch họp hôm nay!</p>
+                            <p>Ấn vào "+" để tạo lịch họp.</p>
+                            <button class="content-block-6-info-btn"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="content-beside-row">
+                    <div class="content-beside-block content-block-7">
+                        <p class="content-beside-title">Sinh nhật thành viên</p>
+                        <div class="content-block-7-list">
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                            <div class="content-block-7-item">
+                                <div class="content-block-7-img">
+                                    <img src="./imgs/anh1.jpg" alt="Avatar">
+                                </div>
+                                <div class="content-block-7-info">
+                                    <p class="content-block-7-name">Nguyễn Danh Tùng</p>
+                                    <p>Tester</p>
+                                    <p>21/12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./main.js"></script>
+
+</html>
